@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://d13bysnekstcq"]
+
+[ext_resource type="PackedScene" uid="uid://drtc6vmgkfca" path="res://scene/player.tscn" id="1_dlfbb"]
+[ext_resource type="PackedScene" uid="uid://6gfwycv1j2my" path="res://scene/border_tool.tscn" id="1_yv8ol"]
+
+[node name="intro" type="Node2D"]
+
+[node name="border_tool" parent="." instance=ExtResource("1_yv8ol")]
+width = 1152
+height = 648
+
+[node name="player" parent="." instance=ExtResource("1_dlfbb")]
+position = Vector2(69, 51)
